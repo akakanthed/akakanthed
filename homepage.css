@@ -1,0 +1,228 @@
+body{
+  font-family: Merriweather, Arial;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #323334; 
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,h2,h3{
+  margin: 0px;
+  padding:0px;
+}
+
+h1 {
+      font-family: Montserrat;
+      font-size: 3em;
+  font-weight: bold;
+      margin-bottom: 0px;
+      line-height: 1.25em;
+    }
+
+.work{
+  font-family: Montserrat;
+  font-weight: regular;
+  text-transform:uppercase;
+  font-size: 1em;
+  color: #757678;
+  padding-bottom:20px;
+}
+
+h3{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 0,75em;
+}
+
+a{
+  text-decoration: none;
+  color: #757678;
+}
+
+nav{
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform:uppercase;
+  font-size: 1em;
+}
+
+.nav-link:hover{
+  color: #323334;
+}
+.link:hover{
+    color: #323334;
+    text-decoration:none;
+}
+.active{
+  color: #323334;
+}
+
+.card-title{
+  font-family: Montserrat;
+}
+
+#project1{
+  background-color: #DDEEFE;
+  border:0px;
+}
+
+#project2{
+  background-color: #F9F7C7;
+  border:0px;
+}
+
+#project3{
+  background-color: #FEE9E2;
+  border:0px;
+}
+
+.copyright{
+  display: block;
+  background-color: #E8E8E8;
+  margin: 0px;
+  padding-top:.75em;
+  padding-bottom: .75em;
+  text-align:center;
+  font-size: .75em;
+}
+
+p.intro{
+  margin-top: 1.5em;
+  margin-bottom:4em;
+  line-height: 1.75em;
+}
+
+.introduction{
+  margin-top:2em;
+  padding-top: 4em;
+}
+
+.contact{
+  text-align:center;
+}
+
+.card{
+  border-radius: 0px;
+  }
+
+.card-body{
+  padding-top: 8em;
+  padding-bottom: 8em;
+  padding-left: 4em;
+  padding-right: 6em;
+}
+
+
+
+.card-subtitle{
+  font-family:Montserrat;
+  color: #757678;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 30px;
+}
+
+.contact{
+  margin-top:5em;
+  margin-bottom: 5em;
+  padding-top:2em;
+  padding-bottom:2em;
+}
+
+a.custom-card{
+  color: inherit;
+}
+.custom-card:hover{
+  box-shadow: 1px 4px 7px 1px rgba(3,35,51,0.13);
+}
+
+.logo{
+   max-height: 5em;
+   max-width: 5em;
+}
+  
+@media (max-width: 992px) {
+    .desktop-nav{
+      display:none;}
+  
+    .logo{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 2em;
+      margin-bottom:2em;}
+  
+    h1{
+      font-size: 2em;
+      text-align:center;
+      line-height: 1.15em;}
+    
+    .intro{text-align:center;}
+  
+    .card-title{
+      font-size: 1.25em;
+      line-height: 1.25em;
+      text-align:center;}
+
+    .card-subtitle{text-align:center; font-size: 0.75em;}
+    
+    .work{text-align:center;}
+    .card-body{
+      padding-top:2em;
+      padding-bottom: 2em;}
+  
+    .contact{
+      margin-top:2.5em;
+      margin-bottom: 2.5em;
+      padding-top:2em;
+      padding-bottom:2em;}
+}
+
+@media (min-width: 993px) {
+  .mobile-nav{
+    display:none;}
+
+  .logo{
+    margin-left: 0px;
+    display: block;}
+  
+  .card-title{
+    font-size: 2em;
+    line-height:1.25em;}
+
+  .card-body{
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 4em;
+    padding-right: 6em;}
+  }
+
+.name:hover{
+  background-color:#F9F7C7;
+  color:#323334;
+ }
+
+a.custom-card:hover{
+  text-decoration:none;
+}
+
+.card-hover:hover{
+  box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.15);
+}
+
+.linkedin{
+  width: 100%;
+  max-width: 30px;
+  height: auto;
+}
+
+.email:hover{
+  background-color:#F9F7C7;
+  color:#323334;
+  text-decoration: none;
+}
+
+
