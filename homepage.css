@@ -15,7 +15,7 @@ h1,h2,h3{
 h1 {
       font-family: Montserrat;
       font-size: 3em;
-  font-weight: bold;
+      font-weight: bold;
       margin-bottom: 0px;
       line-height: 1.25em;
     }
@@ -41,11 +41,16 @@ a{
   color: #757678;
 }
 
+/*navbar*/
 nav{
   font-family: Montserrat;
   font-weight: bold;
   text-transform:uppercase;
   font-size: 1em;
+}
+
+.navigate{
+  margin-bottom: 2em;
 }
 
 .nav-link:hover{
@@ -66,6 +71,7 @@ nav{
 #project1{
   background-color: #DDEEFE;
   border:0px;
+  overflow: none;
 }
 
 #project2{
@@ -107,15 +113,6 @@ p.intro{
   border-radius: 0px;
   }
 
-.card-body{
-  padding-top: 8em;
-  padding-bottom: 8em;
-  padding-left: 4em;
-  padding-right: 6em;
-}
-
-
-
 .card-subtitle{
   font-family:Montserrat;
   color: #757678;
@@ -143,6 +140,36 @@ a.custom-card{
    max-height: 5em;
    max-width: 5em;
 }
+
+.projimg{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 993px) {
+  .mobile-nav{
+    display:none;}
+
+  .logo{
+    margin-left: 0px;
+    display: block;}
+  
+  .card-title{
+    font-size: 2em;
+    line-height:1.25em;}
+
+  .card-body{
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 4em;
+    padding-right: 6em;}
+  }
+
+.name:hover{
+  background-color:#F9F7C7;
+  color:#323334;
+ }
   
 @media (max-width: 992px) {
     .desktop-nav{
@@ -154,6 +181,12 @@ a.custom-card{
       display: block;
       margin-top: 2em;
       margin-bottom:2em;}
+
+    .projimg{
+      width:60%;
+      display: block;
+      margin: 0 auto;
+    }
   
     h1{
       font-size: 2em;
@@ -181,28 +214,13 @@ a.custom-card{
       padding-bottom:2em;}
 }
 
-@media (min-width: 993px) {
-  .mobile-nav{
-    display:none;}
-
-  .logo{
-    margin-left: 0px;
-    display: block;}
-  
-  .card-title{
-    font-size: 2em;
-    line-height:1.25em;}
-
-  .card-body{
-    padding-top: 8em;
-    padding-bottom: 8em;
+ @media (max-width: 1200px) and (min-width:993px) {
+.card-body {
+    padding-top: 6em;
+    padding-bottom: 3em;
     padding-left: 4em;
-    padding-right: 6em;}
-  }
-
-.name:hover{
-  background-color:#F9F7C7;
-  color:#323334;
+    padding-right: 4em;
+}
  }
 
 a.custom-card:hover{
@@ -224,5 +242,4 @@ a.custom-card:hover{
   color:#323334;
   text-decoration: none;
 }
-
 
